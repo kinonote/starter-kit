@@ -1,5 +1,5 @@
 body {
-    background: #eee;
+    background: #fff;
 }
 /* Base style */
 body {
@@ -36,7 +36,7 @@ section */
 .section {
     padding: 30px 15px;
 }
-.section.section-secounday{
+.section.section-secondary {
     background: #efefef;
 }
 .section-headline {
