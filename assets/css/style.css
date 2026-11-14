@@ -217,3 +217,14 @@ select, input, radio, textarea
     margin-top: 20px;
     text-align: center;
 }
+/*
+Works
+*/
+.works{
+    margin: 40px 0;
+    padding: 20px;
+    text-align: center;
+}
+.works > img{
+    margin: 0 15px;;
+}
