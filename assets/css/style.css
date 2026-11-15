@@ -55,6 +55,9 @@ section */
 .section.section-secounday {
     background: #efefef;
 }
+.section.section-tertiary {
+    background: #f5faf9;
+}
 .section-headline {
     text-align: center;
     font-size: 40px;
@@ -121,6 +124,7 @@ header
 @media screen and (max-width: 768px){
     .header{
         font-size: 12px;
+        padding: 0 7px;
     }
 }
 /*
@@ -327,6 +331,37 @@ select, input, radio, textarea
     .textarea {
         min-width: auto;
         width: 100%;
+    }
+}
+/*
+faq
+*/
+.faq {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.faq-question {
+    font-weight: bold;
+    padding: 15px;
+    background: #efefef;
+    border-radius: 5px;
+}
+
+.faq-answer {
+    margin: 0 0 20px;
+    padding: 15px;
+    display: none;
+}
+.faq-question {
+    cursor: pointer;
+}
+.faq-question.is-open + .faq-answer {
+    display: block;
+}
+@media screen and (max-width: 768px){
+    .faq-question,
+    .faq-answer {
+        padding: 10px;
     }
 }
 /* form */
