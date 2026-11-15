@@ -411,7 +411,8 @@ Footer
     font-style: normal;
 }
 .footer-mapaddress > a {
-    columns: #fff;
+    color: #fff;
+    text-decoration: none;
 }
 .footer-line {
     border-color: #444;
